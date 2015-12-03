@@ -1,0 +1,106 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: "Open", sans-serif;
+}
+img{
+  max-width: 100%;
+  vertical-align: top;
+}
+ul{padding-left: 0;}
+ul li{ list-style: none;}
+a{color:inherit;}
+a,a:hover{text-decoration: none;}
+.pink{
+  color:#ff1493;
+}
+h1{
+  margin-top: 10px;
+}
+p{
+  font-size: 12px;
+}
+.btn{
+  border-radius: 20px;
+}
+/*Header*/
+.header{
+  border-top: 4px solid black;
+  background: #2D323A;
+  color: white;
+}
+.header h1, .main-menu{
+  margin-top: 10px;
+}
+
+.main-menu{
+  margin-bottom: 0;
+}
+.main-menu li{
+  padding: 0;
+}
+.main-menu li>a{
+  padding: 6px 15px;
+}
+.main-menu li>a:hover{
+  background: black;
+  font-weight: bold;
+  color:#ff1493;
+}
+/* Hero*/
+.hero{
+  padding: 40px 0;
+  background: #E8EDEF;
+  border-bottom: 2px dotted #98A0A8;
+}
+.hero h1{
+  margin-top: 0;
+}
+.hero p:last-child{
+  font-size: 13px;
+}
+a>button{
+  padding: 7px 14px;
+  background: #888;
+  color: white;
+}
+/*portfolio*/
+#portfolio{
+  color: #888;
+  padding: 20px 0;
+  border-bottom: 2px dotted #98A0A8;
+
+}
+.list-inline li>a{
+  color:lightgray;
+}
+.list-inline li>a:hover{
+  color:#888
+}
+#portfolio .col-md-6{
+  padding: 30px 40px;
+}
+.caption{
+  margin-top: 10px;
+}
+.caption p{
+  margin-top: 10px;
+}
+#portfolio button{
+  margin: 20px 500px;
+}
+/*footer*/
+.footer{
+  background: #2D323A;
+  color: white;
+}
+.section-footer{
+  border-bottom: 1px dotted #98A0A8;
+  padding: 20px 0;
+}
+.icon-social>.icon{
+  width: 30px;
+  padding: 5px;
+  border:1px dotted white;
+  border-radius: 100%;
+}
